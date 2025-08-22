@@ -2,13 +2,13 @@ import LineMinimap from "@/components/line-minimap";
 
 export default function Home() {
   return (
-    <main className="relative bg-white">
-      <div className="max-w-4xl mx-auto px-6" style={{ paddingTop: "28vh" }}>
+    <main className="relative bg-black">
+      <div className="max-w-3xl mx-auto px-8 max-md:px-6 max-sm:px-4" style={{ paddingTop: "28vh" }}>
         <article className="mb-16 ">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6">
+          <h1 className="text-3xl max-md:text-2xl max-sm:text-xl font-semibold text-white mb-4 max-sm:mb-3">
             Tecnologias que Moldam o Futuro
           </h1>
-          <div className="prose prose-lg text-gray-700 space-y-6">
+          <div className="prose prose-base max-md:prose-sm max-sm:text-sm text-white space-y-4 max-sm:space-y-3">
             <p>
               Vivemos em uma era de transformação tecnológica sem precedentes.
               Desde a inteligência artificial até a computação em nuvem, novas
@@ -29,10 +29,10 @@ export default function Home() {
         </article>
 
         <article className="mb-16">
-          <h2 className="text-3xl font-semibold text-gray-900 mb-6">
+          <h2 className="text-2xl max-md:text-xl max-sm:text-lg font-medium text-white mb-4 max-sm:mb-3">
             O Futuro da Inteligência Artificial
           </h2>
-          <div className="prose prose-lg text-gray-700 space-y-6">
+          <div className="prose prose-base max-md:prose-sm max-sm:text-sm text-white space-y-4 max-sm:space-y-3">
             <p>
               A inteligência artificial está revolucionando a forma como
               interagimos com a tecnologia. Desde assistentes virtuais até
@@ -54,11 +54,11 @@ export default function Home() {
           </div>
         </article>
 
-        <article className="mb-16">
-          <h2 className="text-3xl font-semibold text-gray-900 mb-6">
+        <article className="mb-12 max-sm:mb-8">
+          <h2 className="text-2xl max-md:text-xl max-sm:text-lg font-medium text-white mb-4 max-sm:mb-3">
             Desenvolvimento Web Moderno
           </h2>
-          <div className="prose prose-lg text-gray-700 space-y-6">
+          <div className="prose prose-base max-md:prose-sm max-sm:text-sm text-white space-y-4 max-sm:space-y-3">
             <p>
               O desenvolvimento web evoluiu drasticamente nos últimos anos.
               Frameworks como React, Vue e Angular transformaram a forma como
@@ -79,11 +79,11 @@ export default function Home() {
           </div>
         </article>
 
-        <article className="mb-16">
-          <h2 className="text-3xl font-semibold text-gray-900 mb-6">
+        <article className="mb-16 max-sm:mb-12">
+          <h2 className="text-3xl max-md:text-2xl max-sm:text-xl font-semibold text-white mb-6 max-sm:mb-4">
             Cloud Computing e DevOps
           </h2>
-          <div className="prose prose-lg text-gray-700 space-y-6">
+          <div className="prose prose-lg max-md:prose-base max-sm:prose-sm text-white space-y-6 max-sm:space-y-4">
             <p>
               A computação em nuvem transformou a infraestrutura de TI.
               Plataformas como AWS, Google Cloud e Azure oferecem serviços
@@ -103,11 +103,11 @@ export default function Home() {
           </div>
         </article>
 
-        <article className="mb-16">
-          <h2 className="text-3xl font-semibold text-gray-900 mb-6">
+        <article className="mb-16 max-sm:mb-12">
+          <h2 className="text-3xl max-md:text-2xl max-sm:text-xl font-semibold text-white mb-6 max-sm:mb-4">
             Segurança Cibernética
           </h2>
-          <div className="prose prose-lg text-gray-700 space-y-6">
+          <div className="prose prose-lg max-md:prose-base max-sm:prose-sm text-white space-y-6 max-sm:space-y-4">
             <p>
               Com o aumento das ameaças digitais, a segurança cibernética
               tornou-se uma prioridade crítica. Ataques de ransomware, phishing
@@ -128,11 +128,11 @@ export default function Home() {
           </div>
         </article>
 
-        <article className="mb-16">
-          <h2 className="text-3xl font-semibold text-gray-900 mb-6">
+        <article className="mb-16 max-sm:mb-12">
+          <h2 className="text-3xl max-md:text-2xl max-sm:text-xl font-semibold text-white mb-6 max-sm:mb-4">
             Blockchain e Criptomoedas
           </h2>
-          <div className="prose prose-lg text-gray-700 space-y-6">
+          <div className="prose prose-lg max-md:prose-base max-sm:prose-sm text-white space-y-6 max-sm:space-y-4">
             <p>
               A tecnologia blockchain revolucionou o conceito de confiança
               digital. Através de registros distribuídos e imutáveis, ela
@@ -152,8 +152,8 @@ export default function Home() {
           </div>
         </article>
 
-        <footer className="mt-20 pt-12 border-t border-gray-200">
-          <p className="text-center text-gray-600">
+        <footer className="mt-16 max-sm:mt-12 pt-8 max-sm:pt-6 border-t border-gray-700">
+          <p className="text-center text-sm text-white max-sm:text-xs opacity-70">
             Continue scrolling para ver a linha laranja se mover pelas linhas
             verticais
           </p>
