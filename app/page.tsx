@@ -2,161 +2,175 @@ import LineMinimap from "@/components/line-minimap";
 
 export default function Home() {
   return (
-    <main className="relative bg-black">
-      <div className="max-w-3xl mx-auto px-8 max-md:px-6 max-sm:px-4" style={{ paddingTop: "28vh" }}>
-        <article className="mb-16 ">
-          <h1 className="text-3xl max-md:text-2xl max-sm:text-xl font-semibold text-white mb-4 max-sm:mb-3">
-            Tecnologias que Moldam o Futuro
-          </h1>
-          <div className="prose prose-base max-md:prose-sm max-sm:text-sm text-white space-y-4 max-sm:space-y-3">
-            <p>
-              Vivemos em uma era de transformação tecnológica sem precedentes.
-              Desde a inteligência artificial até a computação em nuvem, novas
-              tecnologias estão redefinindo como trabalhamos, nos comunicamos e
-              vivemos.
-            </p>
-            <p>
-              Este artigo explora as principais tendências tecnológicas que
-              estão moldando nosso futuro, oferecendo insights sobre como essas
-              inovações impactam diferentes setores da sociedade.
-            </p>
-            <p>
-              Prepare-se para uma jornada através das tecnologias mais
-              influentes da nossa época e descubra como elas podem transformar
-              sua vida pessoal e profissional.
-            </p>
-          </div>
-        </article>
-
+    <main className="relative bg-neutral-900">
+      <div
+        className="max-w-3xl mx-auto px-8 max-md:px-6 max-sm:px-4"
+        style={{ paddingTop: "28vh" }}
+      >
         <article className="mb-16">
-          <h2 className="text-2xl max-md:text-xl max-sm:text-lg font-medium text-white mb-4 max-sm:mb-3">
-            O Futuro da Inteligência Artificial
-          </h2>
-          <div className="prose prose-base max-md:prose-sm max-sm:text-sm text-white space-y-4 max-sm:space-y-3">
+          <div className="flex items-center mb-6 max-sm:mb-4">
+            {/* <div className="w-10 h-10 bg-gradient-to-br from-slate-600 to-slate-800 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">
+              DE
+            </div> */}
+            <div>
+              <div className="text-sm font-medium text-white">
+                Julius Caezar
+              </div>
+              <div className="text-xs text-gray-400">dev_</div>
+            </div>
+          </div>
+
+          <h1 className="text-xl font-bold text-white mb-6 max-sm:mb-4">
+            The Art of Building Robust & Beautiful Applications
+          </h1>
+
+          <div className="prose prose-base max-md:prose-sm max-sm:text-sm text-gray-200 space-y-4 max-sm:space-y-4">
             <p>
-              A inteligência artificial está revolucionando a forma como
-              interagimos com a tecnologia. Desde assistentes virtuais até
-              sistemas de recomendação, a IA está presente em quase todos os
-              aspectos de nossas vidas digitais.
+              In today's digital landscape, the role of a design engineer has
+              become increasingly crucial. We sit at the intersection of
+              aesthetics and functionality, crafting applications that are not
+              only visually stunning but also robust and performant.
             </p>
             <p>
-              Machine Learning e Deep Learning são as tecnologias que
-              impulsionam essa revolução. Algoritmos complexos processam enormes
-              quantidades de dados para identificar padrões e fazer previsões
-              precisas.
+              The modern user expects seamless experiences—interfaces that feel
+              intuitive, load instantly, and work flawlessly across all devices.
+              This demands a deep understanding of both design principles and
+              engineering constraints.
             </p>
             <p>
-              As aplicações práticas são infinitas: diagnósticos médicos mais
-              precisos, carros autônomos, tradução automática em tempo real, e
-              sistemas de segurança avançados. Cada dia surgem novas
-              possibilidades.
+              Minimalism isn't just a design trend; it's a philosophy that
+              drives better user experiences. By removing unnecessary elements
+              and focusing on what truly matters, we create applications that
+              are both beautiful and highly functional.
+            </p>
+
+            <div className="flex justify-center my-8 max-sm:my-6">
+              <div className="text-gray-500 text-lg">**</div>
+            </div>
+
+            <h1 className="text-xl max-md:text-xl max-sm:text-lg font-bold text-white mb-4 max-sm:mb-3 mt-8">
+              The Foundation of Robust Applications
+            </h1>
+
+            <p>
+              Building robust applications starts with solid architecture
+              decisions. Every component, every interaction, and every animation
+              must serve a purpose. We carefully consider performance
+              implications, accessibility requirements, and scalability from day
+              one.
+            </p>
+            <p>
+              Modern tooling allows us to iterate quickly while maintaining high
+              quality standards. TypeScript provides type safety, component
+              libraries ensure consistency, and automated testing gives us
+              confidence in our deployments.
+            </p>
+            <p>
+              The best applications feel effortless to use because enormous
+              effort went into making them simple. This paradox drives our daily
+              work—we embrace complexity in our code so users never have to
+              experience it.
+            </p>
+
+            <div className="flex justify-center my-8 max-sm:my-6">
+              <div className="text-gray-500 text-lg">**</div>
+            </div>
+
+            <h1 className="text-xl max-md:text-xl max-sm:text-lg font-bold text-white mb-4 max-sm:mb-3 mt-8">
+              Crafting Minimalist Experiences
+            </h1>
+
+            <p>
+              True minimalism in digital products isn't about removing
+              features—it's about presenting complexity in digestible, elegant
+              ways. Every pixel serves a purpose, every interaction feels
+              natural, and every transition guides the user's attention.
+            </p>
+            <p>
+              We obsess over details that users might never consciously notice:
+              the perfect spacing between elements, the subtle shadows that
+              create depth, the micro-interactions that provide feedback. These
+              details compound to create experiences that feel magical.
+            </p>
+            <p>
+              The goal is to create applications so intuitive that they become
+              invisible—tools that amplify human capability without drawing
+              attention to themselves. This is the art of design engineering:
+              making the complex feel simple.
             </p>
           </div>
         </article>
 
-        <article className="mb-12 max-sm:mb-8">
-          <h2 className="text-2xl max-md:text-xl max-sm:text-lg font-medium text-white mb-4 max-sm:mb-3">
-            Desenvolvimento Web Moderno
-          </h2>
-          <div className="prose prose-base max-md:prose-sm max-sm:text-sm text-white space-y-4 max-sm:space-y-3">
-            <p>
-              O desenvolvimento web evoluiu drasticamente nos últimos anos.
-              Frameworks como React, Vue e Angular transformaram a forma como
-              construímos interfaces de usuário interativas e responsivas.
-            </p>
-            <p>
-              Next.js revolucionou o desenvolvimento React com recursos como
-              Server-Side Rendering, Static Site Generation e API Routes
-              integradas. Isso permite criar aplicações web extremamente
-              performáticas e otimizadas para SEO.
-            </p>
-            <p>
-              TypeScript ganhou enorme popularidade por adicionar tipagem
-              estática ao JavaScript, reduzindo bugs e melhorando a experiência
-              de desenvolvimento. Ferramentas como Tailwind CSS simplificaram o
-              processo de estilização.
-            </p>
-          </div>
-        </article>
-
-        <article className="mb-16 max-sm:mb-12">
-          <h2 className="text-3xl max-md:text-2xl max-sm:text-xl font-semibold text-white mb-6 max-sm:mb-4">
-            Cloud Computing e DevOps
-          </h2>
-          <div className="prose prose-lg max-md:prose-base max-sm:prose-sm text-white space-y-6 max-sm:space-y-4">
-            <p>
-              A computação em nuvem transformou a infraestrutura de TI.
-              Plataformas como AWS, Google Cloud e Azure oferecem serviços
-              escaláveis que permitem às empresas focar no desenvolvimento de
-              produtos em vez de gerenciar servidores.
-            </p>
-            <p>
-              DevOps integrou desenvolvimento e operações, criando pipelines de
-              CI/CD que automatizam testes, builds e deployments. Isso resulta
-              em entregas mais rápidas e confiáveis.
-            </p>
-            <p>
-              Containers e Kubernetes revolucionaram o deployment de aplicações,
-              oferecendo portabilidade e escalabilidade sem precedentes. Docker
-              simplificou o empacotamento de aplicações.
-            </p>
-          </div>
-        </article>
-
-        <article className="mb-16 max-sm:mb-12">
-          <h2 className="text-3xl max-md:text-2xl max-sm:text-xl font-semibold text-white mb-6 max-sm:mb-4">
-            Segurança Cibernética
-          </h2>
-          <div className="prose prose-lg max-md:prose-base max-sm:prose-sm text-white space-y-6 max-sm:space-y-4">
-            <p>
-              Com o aumento das ameaças digitais, a segurança cibernética
-              tornou-se uma prioridade crítica. Ataques de ransomware, phishing
-              e violações de dados são riscos constantes que as organizações
-              enfrentam.
-            </p>
-            <p>
-              Zero Trust Architecture emerge como uma abordagem moderna de
-              segurança, onde nenhum usuário ou dispositivo é automaticamente
-              confiável. Cada acesso deve ser verificado e autenticado
-              continuamente.
-            </p>
-            <p>
-              Criptografia end-to-end, autenticação multifator e monitoramento
-              contínuo são ferramentas essenciais para proteger dados sensíveis
-              e manter a integridade dos sistemas.
-            </p>
-          </div>
-        </article>
+        <div className="text-center text-gray-400 my-8">**</div>
 
         <article className="mb-16 max-sm:mb-12">
-          <h2 className="text-3xl max-md:text-2xl max-sm:text-xl font-semibold text-white mb-6 max-sm:mb-4">
-            Blockchain e Criptomoedas
-          </h2>
-          <div className="prose prose-lg max-md:prose-base max-sm:prose-sm text-white space-y-6 max-sm:space-y-4">
+          <h1 className="text-xl font-bold text-gray-200 mb-6 max-sm:mb-4">
+            The Future of Design Engineering
+          </h1>
+          <div className="prose prose-lg max-md:prose-base max-sm:prose-sm text-gray-200 space-y-6 max-sm:space-y-4">
             <p>
-              A tecnologia blockchain revolucionou o conceito de confiança
-              digital. Através de registros distribuídos e imutáveis, ela
-              elimina a necessidade de intermediários em muitas transações
-              financeiras.
+              As we look ahead, the role of design engineers will continue to
+              evolve. The convergence of AI, machine learning, and design tools
+              is opening new possibilities for creating intelligent, adaptive
+              interfaces that respond to user behavior in real-time.
             </p>
             <p>
-              Bitcoin e Ethereum abriram caminho para um novo sistema financeiro
-              descentralizado. Smart contracts automatizam acordos e eliminam a
-              necessidade de terceiros confiáveis em muitas operações.
-            </p>
-            <p>
-              DeFi (Finanças Descentralizadas) e NFTs (Tokens Não Fungíveis) são
-              aplicações emergentes que demonstram o potencial transformador
-              desta tecnologia em diversos setores da economia digital.
+              The future belongs to those who can seamlessly blend technical
+              expertise with design sensibility, creating applications that are
+              not just functional, but truly delightful to use. This is the
+              essence of modern design engineering.
             </p>
           </div>
         </article>
 
-        <footer className="mt-16 max-sm:mt-12 pt-8 max-sm:pt-6 border-t border-gray-700">
-          <p className="text-center text-sm text-white max-sm:text-xs opacity-70">
-            Continue scrolling para ver a linha laranja se mover pelas linhas
-            verticais
-          </p>
+        <footer className="mt-16 max-sm:mt-12 pb-8 max-sm:pb-6">
+          <div className="flex justify-between items-center py-6 border-t border-neutral-800">
+            <div className="flex items-center text-neutral-400 hover:text-white transition-colors cursor-pointer">
+              <div>
+                <div className="flex items-center">
+                  <svg
+                    className="w-4 h-4 mr-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 19l-7-7 7-7"
+                    />
+                  </svg>
+                  <div className="text-xs text-neutral-500">Prev</div>
+                </div>
+                <div className="text-sm font-medium mt-1">Developing Taste</div>
+              </div>
+            </div>
+
+            <div className="flex items-center text-neutral-400 hover:text-white transition-colors cursor-pointer">
+              <div className="text-right">
+                <div className="flex items-center justify-end">
+                  <div className="text-xs text-neutral-500">Next</div>
+                  <svg
+                    className="w-4 h-4 ml-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </div>
+                <div className="text-sm font-medium mt-1">
+                  Animating in Public
+                </div>
+              </div>
+            </div>
+          </div>
         </footer>
       </div>
 
